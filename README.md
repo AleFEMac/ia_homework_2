@@ -1,3 +1,3 @@
 # ia_homework_2
 
-Write a ros node that writes in a text format the 2D location of the laser (x,y,theta) when laser messages arrive, and the timestamp
+The package contains a node, named 'posnode', which publishes a string message on the topic '/postopic' containing the (x,y,theta) coordinates of STAGE robot's laser with the relative timestamp.
